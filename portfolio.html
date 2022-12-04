@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Go-IT-markup-hw-03</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,7 +19,7 @@
   <body>
     <header class="top">
       <div class="header">
-        <a class="logotitle" href="index.html"
+        <a class="logo-title" href="index.html"
           ><span class="logo">WEB</span>STUDIO</a
         >
         <nav class="nav-text">
@@ -23,7 +27,7 @@
           <a href="portfolio.html" class="nav-link">Portfolio</a>
           <a href="" class="nav-link">Contacts</a>
         </nav>
-        <address class="adress">
+        <address class="address">
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
           >
@@ -54,10 +58,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">
-                Banking App Interface Concept
-              </h3>
-              <p class="text-p type-projects">App</p>
+              <div class="projects">
+                <h3 class="text-h">Banking App Interface Concept</h3>
+                <p class="text-p">App</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
@@ -68,20 +72,24 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Cashless Payment</h3>
-              <p class="text-p type-projects">Marketing</p>
+              <div class="projects">
+                <h3 class="text-h">Cashless Payment</h3>
+                <p class="text-p">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
             <a href="" class="portfolio-card">
               <img
                 src="./images/meditaion-app.jpg"
-                alt="Meditaion-app"
+                alt="Meditation-app"
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Meditaion App</h3>
-              <p class="text-p type-projects">App</p>
+              <div class="projects">
+                <h3 class="text-h">Meditation App</h3>
+                <p class="text-p">App</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
@@ -92,8 +100,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Taxi Service</h3>
-              <p class="text-p type-projects">Marketing</p>
+              <div class="projects">
+                <h3 class="text-h">Taxi Service</h3>
+                <p class="text-p">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
@@ -104,32 +114,38 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Screen Illustrations</h3>
-              <p class="text-p type-projects">Design</p>
+              <div class="projects">
+                <h3 class="text-h">Screen Illustrations</h3>
+                <p class="text-p">Design</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
             <a href="" class="portfolio-card">
               <img
                 src="./images/online-courses.jpg"
-                alt="Online Cources"
+                alt="Online Courses"
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">online-courses</h3>
-              <p class="text-p type-projects">Marketing</p>
+              <div class="projects">
+                <h3 class="text-h">Online-courses</h3>
+                <p class="text-p">Marketing</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
             <a href="" class="portfolio-card">
               <img
                 src="./images/inst-stories.jpg"
-                alt="Instagramm Stories Concept"
+                alt="Instagram Stories Concept"
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Instagram Stories Concept</h3>
-              <p class="text-p type-projects">Design</p>
+              <div class="projects">
+                <h3 class="text-h">Instagram Stories Concept</h3>
+                <p class="text-p">Design</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
@@ -140,8 +156,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Organic Food</h3>
-              <p class="text-p type-projects">Web Site</p>
+              <div class="projects">
+                <h3 class="text-h">Organic Food</h3>
+                <p class="text-p">Web Site</p>
+              </div>
             </a>
           </li>
           <li class="portfolio-li">
@@ -152,8 +170,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="text-h name-projects">Fresh Coffee</h3>
-              <p class="text-p type-projects">Web Site</p>
+              <div class="projects">
+                <h3 class="text-h">Fresh Coffee</h3>
+                <p class="text-p">Web Site</p>
+              </div>
             </a>
           </li>
         </ul>
@@ -161,9 +181,8 @@
     </main>
 
     <footer class="footer">
-      <!-- <div class="container"> -->
       <div class="footer-space">
-        <a class="logotitle" href="index.html">
+        <a class="logo-title" href="index.html">
           <span class="logo">WEB</span><span class="footer-studio">STUDIO</span>
         </a>
         <p class="footer-p">
