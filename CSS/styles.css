@@ -77,8 +77,6 @@ body {
 }
 .list {
   display: flex;
-  width: 1158;
-  justify-content: center;
   list-style: none;
 }
 
@@ -172,10 +170,6 @@ body {
 .button-index:active {
   background-color: var(--prime-color);
 }
-.center-img {
-  margin-left: 24px;
-  margin-right: 24px;
-}
 .team-card-text {
   background-color: var(--only-white);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -214,12 +208,13 @@ body {
   margin-bottom: 72px;
 }
 .li-card {
-  /* display: flex;
-  justify-content: space-between; */
   margin-right: 24px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+.li-card:last-child {
+  margin-right: 0;
 }
 
 /* Portfolio */
@@ -257,18 +252,16 @@ body {
 }
 .portfolio-ul {
   display: flex;
-  /* width: 1158px; */
   flex-wrap: wrap;
   gap: 0 24px;
-  /* justify-content: space-around; */
   margin-bottom: 120px;
-}
-a {
-  padding: 0;
 }
 .portfolio-card {
   text-decoration: none;
   font-style: normal;
+}
+.image {
+  display: flex;
 }
 .portfolio-li {
   display: flex;
