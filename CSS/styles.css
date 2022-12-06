@@ -179,7 +179,7 @@ body {
   background-color: var(--prime-color);
 }
 .examples-list {
-  display: flex ;
+  display: flex;
   justify-content: left;
 }
 .examples {
@@ -246,7 +246,7 @@ body {
 .hidden-text {
   display: none;
 }
-.section-buttons{
+.section-buttons {
   padding-top: 96px;
   padding-bottom: 72px;
 }
@@ -284,6 +284,7 @@ body {
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 24px;
   margin: -24px -12px 96px -12px;
 }
 .portfolio-li {
